@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alfredogoatache.github.io/react-app-niceadmin/",
-  "name": "niceadmin-app",
+  "homepage": "https://alfredogoatache.github.io/tsx-niceadmin-app/",
+  "name": "react-app-niceadmin-main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
