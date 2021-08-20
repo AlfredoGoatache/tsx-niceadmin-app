@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { Charts } from "../../pages/Charts.component";
 import { Dashboard } from "../../pages/Dashboard.component";
+import { Pages } from "../../pages/Pages.component";
 
 const Sidebar = () => {
 
@@ -27,17 +28,18 @@ const Sidebar = () => {
                   <span>Charts</span>
                 </Link>
               </li>
-              
+              <Link to="/pages">
               <li className="sub-menu">
                 <a href="/" >
-                  <i className="icon_documents_alt" />
+                  <i className="icon_documents_alt"/>
                   <span>Pages</span>
                   <span className="menu-arrow arrow_carrot-right" />
                 </a>
                 <ul className="sub">
-                  <li><a href="blank.html">Blank Page</a></li>
+                  <li><a href="blank.html" className="active">Blank Page</a></li>
                 </ul>
               </li>
+              </Link>
             </ul>
           </div>
         </aside>
@@ -47,6 +49,9 @@ const Sidebar = () => {
         <Switch>
           <Route path="/charts">
             <Charts />
+          </Route>
+          <Route path="/pages">
+            <Pages/>
           </Route>
           <Route path="/">
             <Dashboard/>

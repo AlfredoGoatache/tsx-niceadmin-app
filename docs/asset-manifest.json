@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-app-niceadmin/static/css/main.a617e044.chunk.css",
-    "main.js": "/react-app-niceadmin/static/js/main.2800c1f9.chunk.js",
-    "main.js.map": "/react-app-niceadmin/static/js/main.2800c1f9.chunk.js.map",
+    "main.js": "/react-app-niceadmin/static/js/main.96368480.chunk.js",
+    "main.js.map": "/react-app-niceadmin/static/js/main.96368480.chunk.js.map",
     "runtime-main.js": "/react-app-niceadmin/static/js/runtime-main.740de7fc.js",
     "runtime-main.js.map": "/react-app-niceadmin/static/js/runtime-main.740de7fc.js.map",
     "static/js/2.03d7babd.chunk.js": "/react-app-niceadmin/static/js/2.03d7babd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.740de7fc.js",
     "static/js/2.03d7babd.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.2800c1f9.chunk.js"
+    "static/js/main.96368480.chunk.js"
   ]
 }
